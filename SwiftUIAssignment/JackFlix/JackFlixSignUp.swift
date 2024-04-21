@@ -36,12 +36,18 @@ struct JackFlixSignUp: View {
         
         ZStack {
             Color.black
+            
             VStack {
-                Image("wordmark", bundle: nil)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(.horizontal)
+                
+                HStack {
+                    Image("wordmark", bundle: nil)
+                        .resizable()
+                        .scaledToFit()
+                        
+                }.padding(.horizontal, 50)
+                
                 Spacer()
+                
                 JackTextView(text: $inputEmailText, placeholder: "이메일 주소 또는 전화번호")
                 JackTextView(text: $password, placeholder: "비밀번호")
                 JackTextView(text: $nickname, placeholder: "닉네임")
@@ -58,7 +64,7 @@ struct JackFlixSignUp: View {
                 }
                 Spacer()
             }.padding(.horizontal, 30)
-                .padding(.vertical, 100)
+            .padding(.vertical, 100)
             
         }.ignoresSafeArea()
     }
