@@ -14,6 +14,7 @@
 		DF8E46432BD526E400606390 /* MyRandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E46422BD526E400606390 /* MyRandomImage.swift */; };
 		DF8E46452BD5519000606390 /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E46442BD5519000606390 /* RandomImageView.swift */; };
 		DF8E46472BD553E600606390 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E46462BD553E600606390 /* NextView.swift */; };
+		DF8E46492BD55E5600606390 /* CategoryUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E46482BD55E5600606390 /* CategoryUpgrade.swift */; };
 		DF95A5232BD12A9B00E6FCC4 /* JackFlixSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95A5222BD12A9B00E6FCC4 /* JackFlixSignUp.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		DF8E46422BD526E400606390 /* MyRandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImage.swift; sourceTree = "<group>"; };
 		DF8E46442BD5519000606390 /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
 		DF8E46462BD553E600606390 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		DF8E46482BD55E5600606390 /* CategoryUpgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryUpgrade.swift; sourceTree = "<group>"; };
 		DF95A5222BD12A9B00E6FCC4 /* JackFlixSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackFlixSignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				DF8E46422BD526E400606390 /* MyRandomImage.swift */,
 				DF8E46442BD5519000606390 /* RandomImageView.swift */,
 				DF8E46462BD553E600606390 /* NextView.swift */,
+				DF8E46482BD55E5600606390 /* CategoryUpgrade.swift */,
 			);
 			path = JackFlix;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				DF8E46432BD526E400606390 /* MyRandomImage.swift in Sources */,
 				DF8A7F422BCE344F00DA9C33 /* ContentView.swift in Sources */,
 				DF8A7F402BCE344F00DA9C33 /* SwiftUIAssignmentApp.swift in Sources */,
+				DF8E46492BD55E5600606390 /* CategoryUpgrade.swift in Sources */,
 				DF8E46452BD5519000606390 /* RandomImageView.swift in Sources */,
 				DF95A5232BD12A9B00E6FCC4 /* JackFlixSignUp.swift in Sources */,
 				DF8E46472BD553E600606390 /* NextView.swift in Sources */,
