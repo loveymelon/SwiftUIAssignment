@@ -21,7 +21,7 @@ struct MyRandomImage: View {
                                 LazyHGrid(rows: [GridItem(.flexible(minimum: 0, maximum: .infinity))], content: {
                                     ForEach(items, id: \.self) { _ in
                                         NavigationLink {
-                                            NextView()
+                                            NextView(text: num)
                                         } label: {
                                             RandomImageView()
                                                 .frame(width: 100, height: 150)
